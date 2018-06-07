@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://mynewhome.cvgdmvntocnd.eu-central-1.rds.amazonaws.com:3306/mynewhome
+    username: mynewhome
+    password: mynewhome
+  jpa:
+    hibernate:
+      ddl-auto: update
+    generate-ddl: true
+    show-sql: true
